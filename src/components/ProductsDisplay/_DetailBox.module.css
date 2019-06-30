@@ -1,0 +1,23 @@
+.detailBox {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin: 5px;
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 5px;
+    max-width: 350px;
+    width: 100%;
+}
+
+.optionBox {
+    display: flex;
+    align-content: center;
+    
+    margin: 5px;
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 5px;
+    max-width: 200px;
+    width: 100%;
+}
