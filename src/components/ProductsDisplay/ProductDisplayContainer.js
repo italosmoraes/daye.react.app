@@ -3,6 +3,12 @@ import PropTypes from 'prop-types';
 
 import DetailBox from './DetailBox';
 
+// isso aqui deveria ser responsavel somente
+// por mostrar o conteudo
+// o parent Component deveria handle a logica
+// e esse aqui deveria ser somente um Visual component.
+// Foi nisso que errei e que me levou a nao conseguir terminar
+
 const Container = props => {
     console.log('products....', props.productList);
     console.log('criteria list...', props.criteriaList);
